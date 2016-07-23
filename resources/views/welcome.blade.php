@@ -8,7 +8,13 @@
       }
     </style>
   </head>
-  <body>
+  <body> <!--setup bootstrap! -->
+      <nav class="navbar navbar-default">
+          <ul class="nav navbar-nav">
+              <li>Home</li>
+              <li>Profile</li>
+          </ul> 
+      </nav>
     <div id="map"></div>
     <script>
       function initMap() {
